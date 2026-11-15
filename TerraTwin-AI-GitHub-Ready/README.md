@@ -4,6 +4,15 @@ Student prototype for the NASA International Space Apps Challenge 2026, Al Khoba
 
 TerraTwin AI compares Saudi Arabian terrain with selected lunar and Martian regions, then presents a Mission Test Lab assessment of relative terrain difficulty.
 
+## Team Members
+
+- Reema Almutairi — Team Leader
+- Rhmah Alshehri
+- Sadeem Alshashaee
+- Shahad Sharahili
+- Wajd Alqahtani
+- Yara Asaad
+
 ## Features
 
 - Streamlit dashboard with mission configuration and terrain comparison.
@@ -111,11 +120,27 @@ requirements.txt             Runtime dependencies
 
 ## Data and resource credits
 
-Source families below follow the team's supplied project documentation. The bundled files contain derived feature values, not the original elevation products. These links identify the missions/archives; they do not identify the exact tiles used.
+The following source links were supplied by the team for the Earth, Moon, and Mars elevation resources used in the project. The repository contains derived terrain feature tables; original elevation products are not bundled. Exact downloaded product names and processing provenance should accompany the team's GIS materials for full reproducibility.
 
-- Earth: [Shuttle Radar Topography Mission (SRTM)](https://science.nasa.gov/mission/srtm/).
-- Moon: [NASA LRO Lunar Orbiter Laser Altimeter (LOLA), PDS archive](https://pds-geosciences.wustl.edu/missions/lro/lola.htm).
-- Mars: [ESA Mars Express HRSC, PDS archive information](https://pds-geosciences.wustl.edu/missions/mars_express/hrsc.htm). HRSC is an ESA mission instrument; NASA archive hosting does not change its mission attribution.
+### NASA data and resources
+
+| Resource | Project use | Link |
+| --- | --- | --- |
+| NASA Earthdata — Earth elevation dataset | Earth terrain preparation and derived terrain features | [Earthdata collection C2763266368-LPCLOUD](https://search.earthdata.nasa.gov/search/granules?p=C2763266368-LPCLOUD) |
+| NASA GSFC LOLA — 5 m/pixel lunar elevation resource | Lunar terrain reference for Connecting Ridge | [LOLA 5mpp data directory](https://pgda.gsfc.nasa.gov/data/LOLA_5mpp/) |
+| NASA LRO LOLA — archive information | Lunar instrument and dataset documentation | [PDS LOLA archive](https://pds-geosciences.wustl.edu/missions/lro/lola.htm) |
+
+### Space agency partner data
+
+| Resource | Project use | Link |
+| --- | --- | --- |
+| ESA Mars Express HRSC — HRSCview | Discovery and access to Martian terrain resources | [HRSCview](https://hrscview.fu-berlin.de/eng/index.php) |
+| ESA Mars Express HRSC — PDS archive information | Martian elevation dataset documentation and archive references | [HRSC archive](https://pds-geosciences.wustl.edu/missions/mars_express/hrsc.htm) |
+
+HRSC belongs to ESA's Mars Express mission. Hosting or documentation through a NASA archive does not change its mission attribution. A source grid's native resolution is distinct from the team's 75 m processing grid.
+
+### Software and AI tools
+
 - [QGIS](https://qgis.org/), [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/), [Streamlit](https://streamlit.io/), [Plotly](https://plotly.com/python/), [Pydeck](https://deckgl.readthedocs.io/).
 - [Groq](https://groq.com/) and [ChatGPT](https://chatgpt.com/) for AI assistance.
 - The supplied dashboard references an external [Space Apps logo image](https://upload.wikimedia.org/wikipedia/commons/2/27/NASA_Space_Apps_Default_Logo_2-Color_Black.svg). Availability and permitted usage are governed by the source and applicable branding rules; inclusion does not imply NASA endorsement.
