@@ -1,0 +1,3 @@
+site_name,region,body,latitude,longitude,slope_deg,roughness_m,local_relief_m,slope_std_deg,flat_fraction
+AlUla,AlUla,Earth,26.6084,37.9232,9.6595,37.0471,91.5205,9.7672,0.006430
+Harrat Khaybar,Harrat_Khaybar,Earth,25.7333,39.9667,5.1716,18.3488,51.2506,5.5823,0.016821

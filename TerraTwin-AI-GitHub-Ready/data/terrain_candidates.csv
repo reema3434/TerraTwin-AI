@@ -1,0 +1,5 @@
+region,body,slope_deg,roughness_m,local_relief_m,slope_std_deg,flat_fraction
+AlUla,Earth,9.6595,37.0471,91.5205,9.7672,0.006430
+Harrat_Khaybar,Earth,5.1716,18.3488,51.2506,5.5823,0.016821
+Connecting_Ridge,Moon,12.0150,41.2632,120.7711,5.5462,0.000000
+Athabasca_Valles,Mars,5.3857,18.9631,54.3832,7.4509,0.213888
